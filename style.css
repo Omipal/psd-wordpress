@@ -1,0 +1,77 @@
+/*
+Theme Name: WP Learning
+Author: Om WordPress team
+Author URI: https://learning.com/
+Description: This is our first theme.
+*/
+/**************
+01: Header
+***************/
+
+.site-header{
+    height: 150px;
+    background: #f0f0f0;
+}
+.site-branding{
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.site-branding a{
+    display: inline-block;
+    margin-top: 20px;
+}
+.site-branding img{
+    max-width: 200px;
+    max-height: 100px;
+}
+/**************
+02: Navigation
+***************/
+.site-navigation{
+    width: 100%;
+    display: block;
+    clear: both;
+    background: #2ca358;
+    height: 60px;
+}
+/*****************
+03: Home Content
+******************/
+.home-main{
+    margin-top: 50px;
+}
+.home-posts{
+    background: #f0f0f0;
+    padding: 50px 30px;
+}
+/********************
+04: Sidebar & Widgets
+*********************/
+.home-sidebar{
+    background: #ddd;
+  
+}
+.home-carousel{
+    margin: 40px 0;
+}
+.owl-nav{
+    text-align: center;
+}
+.owl-nav button{
+    display: inline-block;
+    font-size: 50px!important;
+    margin: 0 10px;
+    padding: 10px 10px 20px 10px !important ;
+    background: #f8f8f8!important;
+    min-width: 50px;
+    line-height: 1!important;
+}
+/********************
+04: Footer
+*********************/
+.site-footer{
+    margin-top: 15px;
+    background: #333333;
+    height: 200px;
+}

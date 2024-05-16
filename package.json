@@ -1,0 +1,15 @@
+{
+  "name": "theme-development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "starttailwind": "npx tailwindcss -i ./tailwind.css -o ./tailwind_output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
